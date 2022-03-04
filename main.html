@@ -46,47 +46,53 @@
     <!-- the body of your page goes here -->
     <div class="container-fluid bg-light text-dark p-5">
         <div class="container bg-light p-5">
-            <h1 class="display-4">Welcome!</h1>
+            <h1 class="display-4">Welcome! <span id="name-goes-here">...</span></h1>
             <hr>
             <p>Your journey with MindfulBits starts here.</p>
-            <button type="button" class="btn btn-primary btn-lg">Begin Now</button>
+            <a href="home.html" class="btn btn-primary btn-lg" role="button">Begin Now</a>
         </div>
     </div>
 
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-            <div class="card border-info mb-3">
-                <div class="card">
-                    <h5 class="card-title">Why is Mental Health Important?</h5>
-                    <p class="card-text">It affects how we think, feel, and act as we cope with life. It also helps determine how we handle stress, relate to others, and make choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood and aging.</p>
-                </div>
+    <div class="container">
+        <h2>Bites of Reading</h2>
+        <!-- Here is container for cards  -->
+        <div class="container">
+            <div id="cards-go-here" class="row row-cols-auto">
+                    <div class="card py-2 mx-2" style="width: 18rem;">
+                        <img class="card-image card-img-top" src="/images/LandingPageLogo.png" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Why is Mental Health Important?</h5>
+                            <p class="card-text">It affects how we think, feel, and act as we cope with life. It also helps determine how we handle stress, relate to others, and make choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood and aging.</p>
+                            <a class="btn btn-primary card-href">Continue Reading</a>
+                        </div>
+                    </div>
+                    <div class="card py-2 mx-2" style="width: 18rem;">
+                        <img class="card-image card-img-top" src="/images/LandingPageLogo.png" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Science Behind Meditation.</h5>
+                            <p class="card-text">Meditation disrupts that process, training us to notice when our mind wanders and bring it back into focus. By doing that repeatedly, researchers speculate, we strengthen the connection between the prefrontal cortex and the default mode, and that quiets down the self-obsessed mind.</p>
+                            <a class="btn btn-primary card-href">Continue Reading</a>
+                        </div>
+                    </div>
+                    <div class="card py-2 mx-2" style="width: 18rem;">
+                        <img class="card-image card-img-top" src="/images/LandingPageLogo.png" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">What is Athletic Burnout?</h5>
+                            <p class="card-text">Burnout is a response to chronic stress of continued demands in a sport or activity without the opportunity for physical and mental rest and recovery. Burnout is a syndrome of continual training and sport attention stress, resulting in staleness, overtraining and eventually burnout. Many athletes experiencing burnout report feeling trapped by circumstances of sports participation.</p>
+                            <a class="btn btn-primary card-href">Continue Reading</a>
+                        </div>
+                    </div>
+                    <div class="card py-2 mx-2" style="width: 18rem;">
+                        <img class="card-image card-img-top" src="/images/LandingPageLogo.png" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mental Health Vs. Athletic Recovery</h5>
+                            <p class="card-text">If an athlete over-trains physically, they will reach a point where it causes more harm than benefit. Muscles will break down without a chance to recover, the athlete will expose themselves to a higher risk of injury. Similarly, athletes must take care of their mental wellness to maintain peak performance.</p>
+                            <a class="btn btn-primary card-href">Continue Reading</a>
+                        </div>
+                    </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card border-info mb-3">
-                <div class="card">
-                    <h5 class="card-title">Science Behind Meditation.</h5>
-                    <p class="card-text">Meditation disrupts that process, training us to notice when our mind wanders and bring it back into focus. By doing that repeatedly, researchers speculate, we strengthen the connection between the prefrontal cortex and the default mode, and that quiets down the self-obsessed mind.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card border-info mb-3">
-                <div class="card-body">
-                    <h5 class="card-title">What is Athletic Burnout?</h5>
-                    <p class="card-text">Burnout is a response to chronic stress of continued demands in a sport or activity without the opportunity for physical and mental rest and recovery. Burnout is a syndrome of continual training and sport attention stress, resulting in staleness, overtraining and eventually burnout. Many athletes experiencing burnout report feeling trapped by circumstances of sports participation.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card border-info mb-3">
-                <div class="card-body">
-                    <h5 class="card-title">Mental Health Vs. Athletic Recovery</h5>
-                    <p class="card-text">If an athlete over-trains physically, they will reach a point where it causes more harm than benefit. Muscles will break down without a chance to recover, the athlete will expose themselves to a higher risk of injury. Similarly, athletes must take care of their mental wellness to maintain peak performance.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+</div>
 
     <!-- our own footer goes here-->
     <nav id="footerPlaceholder"></nav>
@@ -96,6 +102,7 @@
     <!---------------------------------------------->
     <script src="./scripts/firebaseAPI_BBY-12.js"></script>
     <script src="./scripts/skeleton.js"></script>
+    <script src="./scripts/main.js"></script>
     <!-- <script src="./scripts/script.js"></script> -->
 
 </body>
