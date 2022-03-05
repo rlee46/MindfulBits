@@ -5,20 +5,21 @@ function read_display_bite1() {
     db.collection("Mindful Bites").doc("Bite1")
         .onSnapshot(Bite1Doc => {
             console.log(Bite1Doc.data());
-            document.getElementById("bite1_goes_here").innerHTML = Bite1Doc.data().Mindful Bites;
+            document.getElementById("bite1_goes_here").innerHTML = Bite1Doc.data().Mindful;
         })
 
 }
 read_display_bite1();
 
+
 function read_display_bite2() {
     //console.log("inside the function")
 
     //get into the right collection
-    db.collection("Mindful Bites").doc("Bite1")
+    db.collection("Mindful Bites").doc("Bite2")
         .onSnapshot(Bite2Doc => {
             console.log(Bite2Doc.data());
-            document.getElementById("bite2_goes_here").innerHTML = Bite2Doc.data().Mindful Bites;
+            document.getElementById("bite2_goes_here").innerHTML = Bite2Doc.data().Mindful;
         })
 
 }
@@ -31,7 +32,7 @@ function read_display_bite3() {
     db.collection("Mindful Bites").doc("Bite3")
         .onSnapshot(Bite3Doc => {
             console.log(Bite3Doc.data());
-            document.getElementById("bite3_goes_here").innerHTML = Bite3Doc.data().Mindful Bites;
+            document.getElementById("bite3_goes_here").innerHTML = Bite3Doc.data().Mindful;
         })
 
 }
