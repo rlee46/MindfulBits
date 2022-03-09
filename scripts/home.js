@@ -1,42 +1,20 @@
-function read_display_bite1() {
+function read_display_bites() {
     //console.log("inside the function")
+    let max = 7;
+    let min = 1;
 
     //get into the right collection
-    db.collection("Mindful Bites").doc("Bite1")
-        .onSnapshot(Bite1Doc => {
-            console.log(Bite1Doc.data());
-            document.getElementById("bite1_goes_here").innerHTML = Bite1Doc.data().Mindful;
+    for (let i = 0; i < 3; i++) {
+        let random = Math.floor(Math.random() * ((max + 1) - min) + min);
+        console.log(random)
+        db.collection("Mindful Bites").doc("Bite" + random)
+        .onSnapshot(BiteDoc => {
+            console.log(BiteDoc.data().bite);
+            document.getElementById("bite" + (i+1)).innerHTML = BiteDoc.data().bite;
         })
-
+    }
 }
-read_display_bite1();
-
-
-function read_display_bite2() {
-    //console.log("inside the function")
-
-    //get into the right collection
-    db.collection("Mindful Bites").doc("Bite2")
-        .onSnapshot(Bite2Doc => {
-            console.log(Bite2Doc.data());
-            document.getElementById("bite2_goes_here").innerHTML = Bite2Doc.data().Mindful;
-        })
-
-}
-read_display_bite2();
-
-function read_display_bite3() {
-    //console.log("inside the function")
-
-    //get into the right collection
-    db.collection("Mindful Bites").doc("Bite3")
-        .onSnapshot(Bite3Doc => {
-            console.log(Bite3Doc.data());
-            document.getElementById("bite3_goes_here").innerHTML = Bite3Doc.data().Mindful;
-        })
-
-}
-read_display_bite3();
+read_display_bites();
 
 function insertName() {
     firebase.auth().onAuthStateChanged(user => {
