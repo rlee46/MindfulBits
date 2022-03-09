@@ -11,6 +11,7 @@ function read_display_bites() {
         .onSnapshot(BiteDoc => {
             console.log(BiteDoc.data().bite);
             document.getElementById("bite" + (i+1)).innerHTML = BiteDoc.data().bite;
+            document.getElementById("bite" + (i+1) + "-time").innerHTML = " (Estimated Time: " + BiteDoc.data().mins + ")";
         })
     }
 }
