@@ -3,3 +3,6 @@
     border: none;
 }
 
+body {
+    background-image: url(/images/background.png);
+}
