@@ -6,3 +6,8 @@
 body {
     background-image: url(/images/background.png);
 }
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
