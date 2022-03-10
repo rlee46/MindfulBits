@@ -1,0 +1,8 @@
+#firebaseui-auth-container {
+    align-content: left;
+    display: flex;
+}
+
+body {
+    background-image: url(/images/background.png);
+}
