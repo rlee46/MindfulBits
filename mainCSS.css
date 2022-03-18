@@ -142,13 +142,3 @@ body {
     background: radial-gradient(#f588d8, #c0a3e5);
 
 }
-
-
-
-/* RESPONSIVE */
-
-@media (max-width: 1600px) {
-    .cards {
-        justify-content: center;
-    }
-}

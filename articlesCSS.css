@@ -1,0 +1,12 @@
+h2 {
+    position: relative;
+    left: 20px;
+}
+
+.container1 {
+    display: grid; 
+    grid-template-columns: 30% 30% 30%;
+    padding-left: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px; /*remove if needed*/
+}
