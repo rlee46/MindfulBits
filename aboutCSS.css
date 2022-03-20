@@ -130,6 +130,10 @@
     font-family: "rubik";
 }
 
+body {
+    background-image: url(/images/background.png);
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 1600px) {

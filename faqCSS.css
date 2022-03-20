@@ -52,3 +52,7 @@ flex-direction: column;
 .active:after {
     content: "\2796";
 }
+
+body {
+    background-image: url(/images/background.png);
+}

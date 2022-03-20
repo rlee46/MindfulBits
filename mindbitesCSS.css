@@ -1,0 +1,143 @@
+body {
+    background-image: url(/images/background.png);
+}
+
+#container {
+    display: grid;
+    width: 85vw;
+    height: 100vh;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "card1 card2 card3 card4 card5"
+                        "card6 card7 card8 card9 card10"
+                        "card11 card12 card13 card14 card15";
+    align-content: space-between;
+    text-align: center;
+    grid-gap: 18px;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+button {
+}
+
+#card1 {
+    grid-area: card1;
+    background: rgb(225,247,255);
+    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
+    border-radius: 30%;
+    box-shadow: 10px 10px rgb(186, 197, 212);
+    padding-top: 10%;
+}
+
+#card2 {
+    grid-area: card2;
+    background: rgb(225,247,255);
+    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
+    border-radius: 30%;
+    box-shadow: 10px 10px rgb(186, 197, 212);
+}
+
+#card3 {
+    grid-area: card3;
+    background: rgb(225,247,255);
+    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
+    border-radius: 30%;
+    box-shadow: 10px 10px rgb(186, 197, 212);
+}
+
+#card4 {
+    grid-area: card4;
+    background: rgb(225,247,255);
+    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
+    border-radius: 30%;
+    box-shadow: 10px 10px rgb(186, 197, 212);
+}
+
+#card5 {
+    grid-area: card5;
+    background: rgb(225,247,255);
+    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
+    border-radius: 30%;
+    box-shadow: 10px 10px rgb(186, 197, 212);
+}
+
+#card6 {
+    grid-area: card6;
+    background: rgb(225,247,255);
+    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
+    border-radius: 30%;
+    box-shadow: 10px 10px rgb(186, 197, 212);
+}
+
+#card7 {
+    grid-area: card7;
+    background: rgb(225,247,255);
+    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
+    border-radius: 30%;
+    box-shadow: 10px 10px rgb(186, 197, 212);
+}
+
+#card8 {
+    grid-area: card8;
+    background: rgb(225,247,255);
+    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
+    border-radius: 30%;
+    box-shadow: 10px 10px rgb(186, 197, 212);
+}
+
+#card9 {
+    grid-area: card9;
+    background: rgb(225,247,255);
+    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
+    border-radius: 30%;
+    box-shadow: 10px 10px rgb(186, 197, 212);
+}
+
+#card10 {
+    grid-area: card10;
+    background: rgb(225,247,255);
+    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
+    border-radius: 30%;
+    box-shadow: 10px 10px rgb(186, 197, 212);
+}
+
+#card11 {
+    grid-area: card11;
+    background: rgb(225,247,255);
+    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
+    border-radius: 30%;
+    box-shadow: 10px 10px rgb(186, 197, 212);
+}
+
+#card12 {
+    grid-area: card12;
+    background: rgb(225,247,255);
+    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
+    border-radius: 30%;
+    box-shadow: 10px 10px rgb(186, 197, 212);
+}
+
+#card13 {
+    grid-area: card13;
+    background: rgb(225,247,255);
+    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
+    border-radius: 30%;
+    box-shadow: 10px 10px rgb(186, 197, 212);
+}
+
+#card14 {
+    grid-area: card14;
+    background: rgb(225,247,255);
+    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
+    border-radius: 30%;
+    box-shadow: 10px 10px rgb(186, 197, 212);
+}
+
+#card15 {
+    grid-area: card15;
+    background: rgb(225,247,255);
+    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
+    border-radius: 30%;
+    box-shadow: 10px 10px rgb(186, 197, 212);
+}
