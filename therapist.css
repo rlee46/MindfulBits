@@ -49,6 +49,10 @@ h3 {
     font-weight: bolder;
 }
 
+#submit {
+    font-weight: 1000;
+}
+
 .form-control {
     border: none;
     border-bottom: 1px solid #d9d9d9;
