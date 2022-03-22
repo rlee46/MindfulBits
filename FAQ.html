@@ -4,7 +4,7 @@
 <head>
     <title>MindfulBits</title>
     <meta name="comp1800 template" content="My 1800 App">
-    <link rel="stylesheet" href="mainCSS.css">
+    <link rel="stylesheet" href="faqCSS.css">
 
     <!------------------------>
     <!-- Required meta tags -->
@@ -19,7 +19,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+        </script>
     <link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
 
     <!-------------------------------------------------------->
@@ -39,27 +39,98 @@
 </head>
 
 <body>
-<!-- our own navbar goes here -->
-<nav id="navbarPlaceholder"></nav>
+    <!-- our own navbar goes here -->
+    <nav>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 
-<p>FAQ</p>
+        <html>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd">
+            <div class="container-fluid">
+                <h1>MindfulBits</h1>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/mindbites.html">MindBites</a></li>
+                                <li><a class="dropdown-item" href="/meditations.html">Guided Meditation</a></li>
+                                <li><a class="dropdown-item" href="/therapist.html">Connect With Therapist</a></li>
+                                <li><a class="dropdown-item" href="/articles.html">Articles and Resources</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        </html>
+
+        <style>
+            * {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bolder;
+            }
+        </style>
+    </nav>
+
+
+
+    <main>
+        <h1 class="faq-heading">FAQ'S</h1>
+        <section class="faq-container">
+            <div class="faq-one">
+                <h1 class="faq-page">Why is mental health important?</h1>
+                <div class="faq-body">
+                    <p>In very simple terms, mental health affects how we as individuals think, feel and act throughout
+                        our daily lives. It also aids in determining how well we handle stress, maintain our
+                        relationships, and make decisions.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-two">
+                <h1 class="faq-page">How long should I spend on my mental health?</h1>
+                <div class="faq-body">
+                    <p>There's no set time as to how long you should spend on your mental health. Sometimes one may need
+                        to spend an entire day to settle their mind, or they may need to take a quick five-minute
+                        breather. Either way, it is recommended that you spend some time working on your mental health
+                        throughout the day to ensure overall wellness over long periods of time. </p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-three">
+                <h1 class="faq-page">Why does a sportsman/woman need to work on their mental health?</h1>
+                <div class="faq-body">
+                    <p>Working on mental health shouldn't be ranked in importance according to profession, but when
+                        talking about
+                        sports one's mental wellness is quite underated. As we know that our mental health essentially
+                        affects the way we interact and function throughout the day. So it is very important that
+                        athletes practice their mental health on a daily basis to ensure success in their profession.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
 
 
 
 
+    <!-- our own footer goes here-->
+    <nav id="footerPlaceholder"></nav>
 
-
-
-<!-- our own footer goes here-->
-<nav id="footerPlaceholder"></nav>
-
-<!---------------------------------------------->
-<!-- Your own JavaScript functions go here    -->
-<!---------------------------------------------->
-<script src="./scripts/firebaseAPI_BBY-12.js"></script>
-<script src="./scripts/skeleton.js"></script>
-<script src="./scripts/main.js"></script>
-<!-- <script src="./scripts/script.js"></script> -->
+    <!---------------------------------------------->
+    <!-- Your own JavaScript functions go here    -->
+    <!---------------------------------------------->
+    <script src="./scripts/firebaseAPI_BBY-12.js"></script>
+    <script src="./scripts/skeleton.js"></script>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/faqs.js"></script>
+    <!-- <script src="./scripts/script.js"></script> -->
 
 </body>
+
 </html>
