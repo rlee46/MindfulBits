@@ -6,6 +6,11 @@ body {
     color: rgb(136, 197, 255);
 }
 
+#begin {
+    color: white;
+    font-weight: 300;
+}
+
 #main-container {
     margin: 0;
     padding: 0;

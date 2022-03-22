@@ -2,7 +2,9 @@
     font-family: "rubik";
     src: url(/Rubik-VariableFont_wght.ttf);
 }
-
+body {
+    overflow-x: hidden;
+}
 .header1 {
     text-align: center;
     padding-top: 20px;

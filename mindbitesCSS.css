@@ -141,3 +141,82 @@ button {
     border-radius: 30%;
     box-shadow: 10px 10px rgb(186, 197, 212);
 }
+
+@media only screen and (max-width: 700px) {
+    body {
+        overflow-x: hidden;
+    }
+    #container {
+        overflow-x: hidden;
+        padding-right: 3%;
+        padding-left: 3%;
+        margin: 0;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8"
+        "card9"
+        "card10"
+        "card11"
+        "card12"
+        "card13"
+        "card14"
+        "card15";
+    }
+
+    #card1 {
+        grid-area: card1;
+        background-color: red;
+    }
+    #card2 {
+        grid-area: card2;
+    }
+    #card3 {
+        grid-area: card3;
+    }
+    #card4 {
+        grid-area: card4;
+    }
+    #card5 {
+        grid-area: card5;
+    }
+    #card6 {
+        grid-area: card6;
+    }
+    #card7 {
+        grid-area: card7;
+    }
+    #card8 {
+        grid-area: card8;
+    }
+    #card9 {
+        grid-area: card9;
+    }
+    #card10 {
+        grid-area: card10;
+    }
+    #card11 {
+        grid-area: card11;
+    }
+    #card12 {
+        grid-area: card12;
+    }
+    #card13 {
+        grid-area: card13;
+    }
+    #card14 {
+        grid-area: card14;
+    }
+    #card15 {
+        grid-area: card15;
+    }
+}
