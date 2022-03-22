@@ -5,6 +5,16 @@
 body {
     overflow-x: hidden;
 }
+#navbarPlaceholder {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#contents {
+    padding-top: 15%;
+}
 .header1 {
     text-align: center;
     padding-top: 20px;
@@ -12,15 +22,14 @@ body {
 }
 
 .header2 {
-    position: relative;
     left: 110px;
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 10%;
 }
 
 .missionstatement {
-    position: relative;
     left: 130px;
+    padding-left: 10%;
 }
 
 .text {
@@ -72,41 +81,33 @@ body {
 
 .label1 {
     color: white;
-    position: relative;
-    bottom: 260px;
-    left: 110px;
     font-family: "rubik";
     font-size: 50px;
+    transform: translate(10%, -400%);
 }
 
 .label2 {
     color: white;
-    position: relative;
-    bottom: 260px;
-    left: 90px;
+    transform: translate(10%, -400%);
     font-family: "rubik";
     font-size: 50px;
 }
 
 .label3 {
     color: white;
-    position: relative;
-    bottom: 260px;
-    left: 100px;
+    transform: translate(10%, -400%);
     font-family: "rubik";
     font-size: 50px;
 }
 
 .header3 {
-    position: relative;
     left: 110px;
     padding-left: 20px; 
     position: relative; 
     bottom:50px; 
 }
 
-.teamcontent {
-    position: relative;
+.teamcontent {   
     left: 110px;
     padding-left: 20px; 
     position: relative; 
@@ -121,13 +122,11 @@ body {
 }
 
 .container2 > h4 {
-    position: relative; 
     bottom: 60px;
     font-family: "rubik";
 }
 
 .container2 > p {
-    position: relative; 
     bottom: 60px; 
     font-family: "rubik";
 }
