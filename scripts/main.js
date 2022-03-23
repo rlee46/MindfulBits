@@ -20,14 +20,28 @@ function insertName() {
 }
 insertName();
 
-function insertBite() {
+// function insertBite() {
     
-    console.log(BiteDoc)
-    db.collection("Mindful Bites").doc("Bite")
-    .onSnapshot(BiteDoc => {
-        console.log(BiteDoc.data().bite);
-        document.getElementById("bite1").innerHTML = BiteDoc.data().bite;
-        document.getElementById("bite1" + "-time").innerHTML = " (Estimated Time: " + BiteDoc.data().mins + " minutes)";
-    })
+//     console.log(BiteDoc)
+//     db.collection("Mindful Bites").doc("Bite")
+//     .onSnapshot(BiteDoc => {
+//         console.log(BiteDoc.data().bite);
+//         document.getElementById("bite1").innerHTML = BiteDoc.data().bite;
+//         document.getElementById("bite1" + "-time").innerHTML = " (Estimated Time: " + BiteDoc.data().mins + " minutes)";
+//     })
+// }
+// insertBite();
+function readDisplayBites() {
+    //console.log("inside the function")
+
+    //get into the right collection
+    for (let i = 1; i <= 15; i++) {
+        db.collection("Mindful Bites").doc("Bite" + i)
+        .onSnapshot(BiteDoc => {
+            console.log(BiteDoc.data().bite);
+            document.getElementById("bite" + (i)).innerHTML = BiteDoc.data().bite + " <br>";
+            document.getElementById("bite" + (i) + "-time").innerHTML = BiteDoc.data().mins + " minutes";
+        })
+    }
 }
-insertBite();
+readDisplayBites();
