@@ -45,3 +45,18 @@ function readDisplayBites() {
     }
 }
 readDisplayBites();
+
+function readDisplayMeditation() {
+    //console.log("inside the function")
+
+    //get into the right collection
+    for (let i = 1; i <= 15; i++) {
+        db.collection("Meditations").doc("Meditation" + i)
+        .onSnapshot(MeditationDoc => {
+            console.log(MeditationDoc.data().meditation);
+            document.getElementById("meditation" + (i)).innerHTML = MeditationDoc.data().technique + " <br>";
+            document.getElementById("meditation" + (i) + "-time").innerHTML = MeditationDoc.data().mins + " minutes";
+        })
+    }
+}
+readDisplayMeditation();
