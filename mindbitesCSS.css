@@ -1,17 +1,17 @@
-body {
-    background-image: url(/images/background.png);
-}
 
 #container {
     padding-top: 5%;
     display: grid;
     width: 85vw;
     height: 100vh;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "card1 card2 card3 card4 card5"
+    grid-template-areas: "heading heading video video video "
+                        "banner banner banner banner banner"
+                        "card1 card2 card3 card4 card5"
                         "card6 card7 card8 card9 card10"
-                        "card11 card12 card13 card14 card15";
+                        "card11 card12 card13 card14 card15"
+                        "footer footer footer footer footer";
     align-content: space-between;
     text-align: center;
     grid-gap: 18px;
@@ -26,8 +26,29 @@ body {
     left: 0;
 }
 
-button {
+#footer {
+    grid-area: footer;
 }
+
+#video {
+    grid-area: video;
+}
+
+#heading {
+    grid-area: heading;
+    text-align: left;
+}
+
+#banner {
+    grid-area: banner;
+}
+
+#bannerimg {
+    width: 100%;
+    height: 100%
+}
+
+
 
 #card1 {
     grid-area: card1;
@@ -161,9 +182,12 @@ button {
         margin: 0;
         width: 100%;
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr;
-        grid-template-areas: 
+        grid-template-areas:
+        "heading"
+        "video"
+        "banner"
         "card1"
         "card2"
         "card3"
@@ -179,6 +203,17 @@ button {
         "card13"
         "card14"
         "card15";
+    }
+
+    #banner {
+        grid-area: banner;
+    }
+
+    #video {
+        grid-area: video;
+    }
+    #heading {
+        grid-area: heading;
     }
 
     #card1 {

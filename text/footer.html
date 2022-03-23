@@ -2,7 +2,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+<html>
+<body>
+<footer id="footer" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-light">
     <p class="col-md-4 mb-0 text-muted">&copy; 2022 MindfulBits</p>
 
     <a href="/"
@@ -17,11 +19,19 @@
         <li class="nav-item"><a href="/about.html" class="nav-link px-2 text-muted">About</a></li>
     </ul>
 </footer>
+</body>
+</html>
 
 <style>
     * {
         font-family: 'Montserrat', sans-serif;
         font-weight: bolder;
     }
-    
-    </style>
+
+    #footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+}
+</style>
