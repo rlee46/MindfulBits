@@ -35,7 +35,6 @@ button {
     background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
     border-radius: 30%;
     box-shadow: 10px 10px rgb(186, 197, 212);
-    padding-top: 10%;
 }
 
 #card2 {
