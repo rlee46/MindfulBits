@@ -9,9 +9,9 @@ body {
 
 .logo {
     grid-area: logo;
-    height: 100%;
-    width: 110%;
-    margin-left: 30%;
+    height: 85%;
+    width: 100%;
+    justify-content: center;
 }
 
 #container {
@@ -21,3 +21,27 @@ body {
     grid-template-areas: "logo logo main main";
 }
 
+@media only screen and (max-width: 700px) {
+    body {
+        overflow-x: hidden;
+    }
+    #container {
+        padding-top: 15%;
+        overflow-x: hidden;
+        padding-right: 3%;
+        padding-left: 3%;
+        margin: 0;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "logo"
+        "main";
+}
+.logo {
+    grid-area: logo;
+    height: 85%;
+    width: 100%;
+}
+}
