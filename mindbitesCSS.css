@@ -70,7 +70,6 @@ body {
 
 .carousel-button.prev {
     left: 1rem;
-    /* width: 5%; */
 }
 .carousel-button.next {
     right: 1rem;
@@ -93,6 +92,8 @@ body {
     grid-gap: 18px;
     margin-top: 5%;
     padding-bottom: 0;
+    padding-right: 3%;
+
 }
 
 #navbarPlaceholder {
@@ -122,18 +123,19 @@ body {
 #video {
     grid-area: video;
     margin: auto;
+    padding-left: 5%;
 }
 
 #heading {
     grid-area: heading;
     text-align: left;
-    padding-left: 20%;
+    padding-left: 30%;
 }
 
 #banner {
     grid-area: banner;
     margin: auto;
-    padding-left: 20%;
+    padding-left: 30%;
 }
 
 #bannerimg {
