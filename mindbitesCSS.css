@@ -1,22 +1,98 @@
+body {
+    overflow-x: hidden;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+#carousel-section {
+    grid-area: carousel;
+    padding-top: 30%;
+}
+.carousel {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.carousel > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacitiy ease-in-out;
+    transition-delay: 200ms;
+}
+
+.slide > div {
+    display: block;
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+}
+
+.slide[data-active] {
+    opacity: 1;
+    transition-delay: 0;
+}
+
+.carousel-button {
+    position: absolute;
+    background: none;
+    border: none;
+    width: 5%;
+    font-size: 4rem;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: rgba(255, 255, 255, .5);
+    border-radius: .25rem;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.carousel-button:hover, .carousel-button:focus {
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.carousel-button:focus {
+    outline: 1px solid black;
+}
+
+.carousel-button.prev {
+    left: 1rem;
+    /* width: 5%; */
+}
+.carousel-button.next {
+    right: 1rem;
+}
+
 
 #container {
     padding-top: 5%;
     display: grid;
-    width: 85vw;
+    width: 80%;
     height: 100vh;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.1fr 0.2fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "heading heading video video video "
                         "banner banner banner banner banner"
-                        "card1 card2 card3 card4 card5"
-                        "card6 card7 card8 card9 card10"
-                        "card11 card12 card13 card14 card15"
+                        "carousel carousel carousel carousel carousel"
                         "footer footer footer footer footer";
     align-content: space-between;
     text-align: center;
     grid-gap: 18px;
-    margin-left: 8%;
     margin-top: 5%;
+    padding-bottom: 0;
 }
 
 #navbarPlaceholder {
@@ -24,13 +100,19 @@
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 3;
 }
 
 #footerPlaceholder {
-    position:relative;
-    width: 100%;
-    top: 1050px;
+    position: fixed;
     left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    transform: translateY(20%);
+    z-index: 2;
 }
 
 #footer {
@@ -39,15 +121,19 @@
 
 #video {
     grid-area: video;
+    margin: auto;
 }
 
 #heading {
     grid-area: heading;
     text-align: left;
+    padding-left: 20%;
 }
 
 #banner {
     grid-area: banner;
+    margin: auto;
+    padding-left: 20%;
 }
 
 #bannerimg {
@@ -181,7 +267,7 @@
     body {
         overflow-x: hidden;
     }
-    #container {
+    /* #container {
         padding-top: 15%;
         overflow-x: hidden;
         padding-right: 3%;
@@ -268,5 +354,5 @@
     }
     #card15 {
         grid-area: card15;
-    }
+    } */
 }

@@ -20,17 +20,6 @@ function insertName() {
 }
 insertName();
 
-// function insertBite() {
-    
-//     console.log(BiteDoc)
-//     db.collection("Mindful Bites").doc("Bite")
-//     .onSnapshot(BiteDoc => {
-//         console.log(BiteDoc.data().bite);
-//         document.getElementById("bite1").innerHTML = BiteDoc.data().bite;
-//         document.getElementById("bite1" + "-time").innerHTML = " (Estimated Time: " + BiteDoc.data().mins + " minutes)";
-//     })
-// }
-// insertBite();
 function readDisplayBites() {
     //console.log("inside the function")
 

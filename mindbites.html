@@ -37,116 +37,156 @@
     <!-------------------------------------------->
 
 </head>
-
+<!-- our own navbar goes here -->
+<nav id="navbarPlaceholder"></nav>
 <body>
-    <!-- our own navbar goes here -->
-    <nav id="navbarPlaceholder"></nav>
+    
 
     <div id="container">
 
         <div id="heading">
             <h1><b>MindBites</b></h1>
-            <br/>
-            <p>Mindfulness practices can help us to increase our ability to regulate emotions, decrease stress, anxiety and depression. It can also help us to focus our attention, as well as to observe our thoughts and feelings without judgment.</p>
-            <br/>
+            <br />
+            <p>Mindfulness practices can help us to increase our ability to regulate emotions, decrease stress, anxiety
+                and depression. It can also help us to focus our attention, as well as to observe our thoughts and
+                feelings without judgment.</p>
+            <br />
             <figure>
                 <figcaption>Try it out: 2 minute deep breathing.</figcaption>
-                <audio
-                    controls
-                    src="/media.mp3">
-                        Your browser does not support the
-                        <code>audio</code>
+                <audio controls src="/media.mp3">
+                    Your browser does not support the
+                    <code>audio</code>
                 </audio>
             </figure>
         </div>
 
 
         <div id="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/w6T02g5hnT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/w6T02g5hnT4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
 
         <div id="banner">
-            <img id="bannerimg"  src="/images/img1.png">
-        </div>
-            
-
-        <div id="card1">
-            <p id="title1"></p><br><br>
-            <p><span id="bite1"></span><span id="bite1-time"></span></p>
-            <button type="button" class="btn btn-light">Begin</button>
+            <img id="bannerimg" src="/images/img1.png">
         </div>
 
-        <div id="card2">
-            <p id="title2"></p><br><br>
-            <p><span id="bite2"></span><span id="bite2-time"></span></p>
-            <button type="button" class="btn btn-light">Begin</button>
-        </div>
-        <div id="card3">
-            <p id="title3"></p><br><br>
-            <p><span id="bite3"></span><span id="bite3-time"></span></p>
-            <button type="button" class="btn btn-light">Begin</button>
-        </div>
-        <div id="card4">
-            <p id="title4"></p><br><br>
-            <p><span id="bite4"></span><span id="bite4-time"></span></p>
-            <button type="button" class="btn btn-light">Begin</button>
-        </div>
-        <div id="card5">
-            <p id="title5"></p><br><br>
-            <p><span id="bite5"></span><span id="bite5-time"></span></p>
-            <button type="button" class="btn btn-light">Begin</button>
-        </div>
-        <div id="card6">
-            <p id="title6"></p><br><br>
-            <p><span id="bite6"></span><span id="bite6-time"></span></p>
-            <button type="button" class="btn btn-light">Begin</button>
-        </div>
-        <div id="card7">
-            <p id="title7"></p><br><br>
-            <p><span id="bite7"></span><span id="bite7-time"></span></p>
-            <button type="button" class="btn btn-light">Begin</button>
-        </div>
-        <div id="card8">
-            <p id="title8"></p><br><br>
-            <p><span id="bite8"></span><span id="bite8-time"></span></p>
-            <button type="button" class="btn btn-light">Begin</button>
-        </div>
-        <div id="card9">
-            <p id="title9"></p><br><br>
-            <p><span id="bite9"></span><span id="bite9-time"></span></p>
-            <button type="button" class="btn btn-light">Begin</button>
-        </div>
-        <div id="card10">
-            <p id="title10"></p><br><br>
-            <p><span id="bite10"></span><span id="bite10-time"></span></p>
-            <button type="button" class="btn btn-light">Begin</button>
-        </div>
-        <div id="card11">
-            <p id="title11"></p><br><br>
-            <p><span id="bite11"></span><span id="bite11-time"></span></p>
-            <button type="button" class="btn btn-light">Begin</button>
-        </div>
-        <div id="card12">
-            <p id="title12"></p><br><br>
-            <p><span id="bite12"></span><span id="bite12-time"></span></p>
-            <button type="button" class="btn btn-light">Begin</button>
-        </div>
-        <div id="card13">
-            <p id="title13"></p><br><br>
-            <p><span id="bite13"></span><span id="bite13-time"></span></p>
-            <button type="button" class="btn btn-light">Begin</button>
-        </div>
-        <div id="card14">
-            <p id="title14"></p><br><br>
-            <p><span id="bite14"></span><span id="bite14-time"></span></p>
-            <button type="button" class="btn btn-light">Begin</button>
-        </div>
-        <div id="card15">
-            <p id="title15"></p><br><br>
-            <p><span id="bite15"></span><span id="bite15-time"></span></p>
-            <button type="button" class="btn btn-light">Begin</button>
-        </div>
+        <section aria-label="slide" id="carousel-section">
+            <div class="carousel" data-carousel>
+                <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+                <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+                <ul data-slides>
+                    <li class="slide" data-active>
+                        <div id="card1">
+                            <p id="title1"></p><br><br>
+                            <p><span id="bite1"></span><span id="bite1-time"></span></p>
+                            <button type="button" class="btn btn-light">Begin</button>
+                        </div>
+                    </li>
 
+                    <li class="slide">
+                        <div id="card2">
+                            <p id="title2"></p><br><br>
+                            <p><span id="bite2"></span><span id="bite2-time"></span></p>
+                            <button type="button" class="btn btn-light">Begin</button>
+                        </div>
+                    </li>
+
+                    <li class="slide">
+                        <div id="card3">
+                            <p id="title3"></p><br><br>
+                            <p><span id="bite3"></span><span id="bite3-time"></span></p>
+                            <button type="button" class="btn btn-light">Begin</button>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <div id="card4">
+                            <p id="title4"></p><br><br>
+                            <p><span id="bite4"></span><span id="bite4-time"></span></p>
+                            <button type="button" class="btn btn-light">Begin</button>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <div id="card5">
+                            <p id="title5"></p><br><br>
+                            <p><span id="bite5"></span><span id="bite5-time"></span></p>
+                            <button type="button" class="btn btn-light">Begin</button>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <div id="card6">
+                            <p id="title6"></p><br><br>
+                            <p><span id="bite6"></span><span id="bite6-time"></span></p>
+                            <button type="button" class="btn btn-light">Begin</button>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <div id="card7">
+                            <p id="title7"></p><br><br>
+                            <p><span id="bite7"></span><span id="bite7-time"></span></p>
+                            <button type="button" class="btn btn-light">Begin</button>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <div id="card8">
+                            <p id="title8"></p><br><br>
+                            <p><span id="bite8"></span><span id="bite8-time"></span></p>
+                            <button type="button" class="btn btn-light">Begin</button>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <div id="card9">
+                            <p id="title9"></p><br><br>
+                            <p><span id="bite9"></span><span id="bite9-time"></span></p>
+                            <button type="button" class="btn btn-light">Begin</button>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <div id="card10">
+                            <p id="title10"></p><br><br>
+                            <p><span id="bite10"></span><span id="bite10-time"></span></p>
+                            <button type="button" class="btn btn-light">Begin</button>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <div id="card11">
+                            <p id="title11"></p><br><br>
+                            <p><span id="bite11"></span><span id="bite11-time"></span></p>
+                            <button type="button" class="btn btn-light">Begin</button>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <div id="card12">
+                            <p id="title12"></p><br><br>
+                            <p><span id="bite12"></span><span id="bite12-time"></span></p>
+                            <button type="button" class="btn btn-light">Begin</button>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <div id="card13">
+                            <p id="title13"></p><br><br>
+                            <p><span id="bite13"></span><span id="bite13-time"></span></p>
+                            <button type="button" class="btn btn-light">Begin</button>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <div id="card14">
+                            <p id="title14"></p><br><br>
+                            <p><span id="bite14"></span><span id="bite14-time"></span></p>
+                            <button type="button" class="btn btn-light">Begin</button>
+                        </div>
+                    </li>
+                    <li class="slide">
+                        <div id="card15">
+                            <p id="title15"></p><br><br>
+                            <p><span id="bite15"></span><span id="bite15-time"></span></p>
+                            <button type="button" class="btn btn-light">Begin</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </div>
 
 
@@ -160,6 +200,7 @@
     <script src="./scripts/firebaseAPI_BBY-12.js"></script>
     <script src="./scripts/skeleton.js"></script>
     <script src="./scripts/main.js"></script>
+    <script src="./scripts/mindbites.js"></script>
     <!-- <script src="./scripts/script.js"></script> -->
 
 </body>
