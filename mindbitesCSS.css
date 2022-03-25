@@ -26,6 +26,13 @@
     left: 0;
 }
 
+#footerPlaceholder {
+    position:relative;
+    width: 100%;
+    top: 1050px;
+    left: 0;
+}
+
 #footer {
     grid-area: footer;
 }

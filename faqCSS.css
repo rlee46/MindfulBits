@@ -10,6 +10,13 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 }
+
+#footerPlaceholder {
+    position:relative;
+    width: 100%;
+    top: 25px;
+}
+
 .hr-line{
   width: 60%;
   margin: auto;

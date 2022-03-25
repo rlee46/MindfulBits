@@ -5,12 +5,22 @@ h2 {
 
 .container1 {
     display: grid; 
-    grid-template-columns: 30% 30% 30%;
-    padding-left: 130px;
-    padding-top: 20px;
-    padding-bottom: 20px; /*remove if needed*/
+    grid-template-columns: 40% 40% 40%;
+    padding-left: 150px;
 }
 
 body {
     background-image: url(/images/background.png);
+    width:80%; 
+}
+
+#footerPlaceholder {
+    position:relative;
+    width: 125%;
+    top: 25px;
+}
+
+#navbarPlaceholder {
+    position:relative;
+    width: 125%;
 }

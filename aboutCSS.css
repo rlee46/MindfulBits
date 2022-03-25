@@ -13,12 +13,13 @@ body {
 }
 
 #contents {
-    padding-top: 15%;
+    padding-top: 5%;
 }
 .header1 {
     text-align: center;
-    padding-top: 20px;
     padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .header2 {
@@ -83,19 +84,19 @@ body {
     color: white;
     font-family: "rubik";
     font-size: 50px;
-    transform: translate(10%, -400%);
+    transform: translate(25%, -400%);
 }
 
 .label2 {
     color: white;
-    transform: translate(10%, -400%);
+    transform: translate(25%, -400%);
     font-family: "rubik";
     font-size: 50px;
 }
 
 .label3 {
     color: white;
-    transform: translate(10%, -400%);
+    transform: translate(25%, -400%);
     font-family: "rubik";
     font-size: 50px;
 }
@@ -104,14 +105,12 @@ body {
     left: 110px;
     padding-left: 20px; 
     position: relative; 
-    bottom:50px; 
 }
 
 .teamcontent {   
     left: 110px;
     padding-left: 20px; 
-    position: relative; 
-    bottom:50px; 
+    position: relative;  
 }
 
 .container2 {
@@ -131,8 +130,11 @@ body {
     font-family: "rubik";
 }
 
-body {
-    background-image: url(/images/background.png);
+
+#footerPlaceholder {
+    position:relative;
+    width: 100%;
+    top:25px;  
 }
 
 /* RESPONSIVE */
