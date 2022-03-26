@@ -264,7 +264,7 @@ body {
     body {
         overflow-x: hidden;
         margin: 0;
-        overflow-y: hidden
+        overflow-y: hidden;
     }
     #container {
         padding-top: 15%;
@@ -298,7 +298,7 @@ body {
     #heading {
         padding: 0%;
     }
-    #heading > p, #heading > figure{
+    #heading > p, #heading > figure {
         width: 80%;
         margin: auto;
         padding-left: 5%;
@@ -308,7 +308,7 @@ body {
         width: 13%;
         top: 15%;
     }
-    .carousel-button.carousel-button.next{
+    .carousel-button.carousel-button.next {
         margin-right: 1%;
     }
 
@@ -321,6 +321,11 @@ body {
     .slide {
         padding-top: 0%;
         margin-top: 0;
+    }
+
+    .slide > div > p, button {
+        vertical-align: middle;
+        transform: translateY(150%);
     }
 
     #carousel-section {
