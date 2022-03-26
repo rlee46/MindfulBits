@@ -2,6 +2,11 @@ body {
     background-image: url(/images/background.png);
 }
 
+#view-all {
+    color: white;
+    font-weight: 800;
+}
+
 #main {
     grid-area: main;
     margin-top: 10%;

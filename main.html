@@ -2,102 +2,59 @@
 <html lang="en">
 
 <head>
-    <title>MindfulBits</title>
-    <meta name="comp1800 template" content="My 1800 App">
-    <link rel="stylesheet" href="mainCSS.css">
+  <title>MindfulBits</title>
+  <meta name="comp1800 template" content="My 1800 App">
+  <link rel="stylesheet" href="mainCSS.css">
 
-    <!------------------------>
-    <!-- Required meta tags -->
-    <!------------------------>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!------------------------>
+  <!-- Required meta tags -->
+  <!------------------------>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!------------------------------------------>
-    <!-- Bootstrap Library CSS JS CDN go here -->
-    <!------------------------------------------>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  <!------------------------------------------>
+  <!-- Bootstrap Library CSS JS CDN go here -->
+  <!------------------------------------------>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
-    <link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
 
-    <!-------------------------------------------------------->
-    <!-- Firebase 8 Library related CSS, JS, JQuery go here -->
-    <!-------------------------------------------------------->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
-    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
+  <!-------------------------------------------------------->
+  <!-- Firebase 8 Library related CSS, JS, JQuery go here -->
+  <!-------------------------------------------------------->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
 
-    <!-------------------------------------------->
-    <!-- Other libraries and styles of your own -->
-    <!-------------------------------------------->
+  <!-------------------------------------------->
+  <!-- Other libraries and styles of your own -->
+  <!-------------------------------------------->
 
 </head>
 
 <body>
 
-    <!-- our own navbar goes here -->
-    <nav id="navbarPlaceholder"></nav>
+  <!-- our own navbar goes here -->
+  <nav id="navbarPlaceholder"></nav>
 
-    <!-- the body of your page goes here -->
-    <div id="hero">
-        <div>
-            <h1 class="display-4">Welcome! <span id="name-goes-here">...</span></h1>
-            <hr>
-            <p>Your journey with MindfulBits starts here.</p>
-            <a id="begin" href="home.html" class="btn bg-info" role="button">Begin Now </a>
-        </div>
+  <!-- the body of your page goes here -->
+  <div id="hero">
+    <div>
+      <h1 class="display-4">Welcome! <span id="name-goes-here">...</span></h1>
+      <hr>
+      <p>Your journey with MindfulBits starts here.</p>
+      <a id="begin" href="home.html" class="btn bg-info" role="button">Begin Now </a>
     </div>
-
-<!--
-    <div class="container">
-        <h3>Bites of Reading</h3>
-        <!-- Here is container for cards  -->
-<!--        <div class="container">
-            <div id="cards-go-here" class="row row-cols-auto">
-                    <div class="card py-2 mx-2" style="width: 18rem;">
-                        <img class="card-image card-img-top" src="/images/LandingPageLogo.png" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Why is Mental Health Important?</h5>
-                            <p class="card-text">It affects how we think, feel, and act as we cope with life. It also helps determine how we handle stress, relate to others, and make choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood and aging.</p>
-                            <a class="btn btn-primary card-href">Continue Reading</a>
-                        </div>
-                    </div>
-                    <div class="card py-2 mx-2" style="width: 18rem;">
-                        <img class="card-image card-img-top" src="/images/LandingPageLogo.png" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Science Behind Meditation.</h5>
-                            <p class="card-text">Meditation disrupts that process, training us to notice when our mind wanders and bring it back into focus. By doing that repeatedly, researchers speculate, we strengthen the connection between the prefrontal cortex and the default mode, and that quiets down the self-obsessed mind.</p>
-                            <a class="btn btn-primary card-href">Continue Reading</a>
-                        </div>
-                    </div>
-                    <div class="card py-2 mx-2" style="width: 18rem;">
-                        <img class="card-image card-img-top" src="/images/LandingPageLogo.png" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">What is Athletic Burnout?</h5>
-                            <p class="card-text">Burnout is a response to chronic stress of continued demands in a sport or activity without the opportunity for physical and mental rest and recovery. Burnout is a syndrome of continual training and sport attention stress, resulting in staleness, overtraining and eventually burnout. Many athletes experiencing burnout report feeling trapped by circumstances of sports participation.</p>
-                            <a class="btn btn-primary card-href">Continue Reading</a>
-                        </div>
-                    </div>
-                    <div class="card py-2 mx-2" style="width: 18rem;">
-                        <img class="card-image card-img-top" src="/images/LandingPageLogo.png" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Mental Health Vs. Athletic Recovery</h5>
-                            <p class="card-text">If an athlete over-trains physically, they will reach a point where it causes more harm than benefit. Muscles will break down without a chance to recover, the athlete will expose themselves to a higher risk of injury. Similarly, athletes must take care of their mental wellness to maintain peak performance.</p>
-                            <a class="btn btn-primary card-href">Continue Reading</a>
-                        </div>
-                    </div>
-            </div>
-        </div>
-</div>
--->
+  </div>
 
 
-<div class="main-container">
+  <div class="main-container">
 
     <div class="cards">
       <div class="card card-1">
@@ -105,7 +62,8 @@
         <p class="card__exit"><i class="fas fa-times"></i></p>
         <h2 class="card__title">Why is mental health important?</h2>
         <p class="card__apply">
-          <a class="card__link" href="#">Read more...<i class="fas fa-arrow-right"></i></a>
+          <a class="card__link" href="https://www.cdc.gov/mentalhealth/learn/index.htm">
+            Read more<i class="fas fa-arrow-right"></i></a>
         </p>
       </div>
       <div class="card card-2">
@@ -113,7 +71,8 @@
         <p class="card__exit"><i class="fas fa-times"></i></p>
         <h2 class="card__title">Science behind meditation.</h2>
         <p class="card__apply">
-          <a class="card__link" href="#">Read more...<i class="fas fa-arrow-right"></i></a>
+          <a class="card__link" href="https://www.mindful.org/10-things-we-know-about-the-science-of-meditation/">
+            Read more<i class="fas fa-arrow-right"></i></a>
         </p>
       </div>
       <div class="card card-3">
@@ -121,7 +80,8 @@
         <p class="card__exit"><i class="fas fa-times"></i></p>
         <h2 class="card__title">What is athletic burnout?</h2>
         <p class="card__apply">
-          <a class="card__link" href="#">Read more...<i class="fas fa-arrow-right"></i></a>
+          <a class="card__link" href="https://www.outsideonline.com/health/training-performance/perfectionism-athlete-burnout-research/">
+            Read more<i class="fas fa-arrow-right"></i></a>
         </p>
       </div>
       <div class="card card-4">
@@ -129,7 +89,8 @@
         <p class="card__exit"><i class="fas fa-times"></i></p>
         <h2 class="card__title">Mental health in relation to athletic recovery.</h2>
         <p class="card__apply">
-          <a class="card__link" href="#">Read more...<i class="fas fa-arrow-right"></i></a>
+          <a class="card__link" href="#https://answers.childrenshospital.org/psychology-sports-injury-recovery/#:~:text=Several%20studies%20have%20shown%20that,less%20likely%20to%20fully%20recover.">
+            Read more<i class="fas fa-arrow-right"></i></a>
         </p>
       </div>
       <div class="card card-5">
@@ -137,7 +98,8 @@
         <p class="card__exit"><i class="fas fa-times"></i></p>
         <h2 class="card__title">Why practice mediation?</h2>
         <p class="card__apply">
-          <a class="card__link" href="#">Read more...<i class="fas fa-arrow-right"></i></a>
+          <a class="card__link" href="https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858#:~:text=Meditation%20can%20give%20you%20a,symptoms%20of%20certain%20medical%20conditions.">
+            Read more<i class="fas fa-arrow-right"></i></a>
         </p>
       </div>
       <div class="card card-1">
@@ -145,21 +107,22 @@
         <p class="card__exit"><i class="fas fa-times"></i></p>
         <h2 class="card__title">Ways to improve sleep.</h2>
         <p class="card__apply">
-          <a class="card__link" href="#">Read more...<i class="fas fa-arrow-right"></i></a>
+          <a class="card__link" href="https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/sleep/art-20048379">
+            Read more<i class="fas fa-arrow-right"></i></a>
         </p>
       </div>
     </div>
   </div>
 
-    <!-- our own footer goes here-->
-    <nav id="footerPlaceholder"></nav>
+  <!-- our own footer goes here-->
+  <nav id="footerPlaceholder"></nav>
 
-    <!---------------------------------------------->
-    <!-- Your own JavaScript functions go here    -->
-    <!---------------------------------------------->
-    <script src="./scripts/firebaseAPI_BBY-12.js"></script>
-    <script src="./scripts/skeleton.js"></script>
-    <script src="./scripts/main.js"></script>
+  <!---------------------------------------------->
+  <!-- Your own JavaScript functions go here    -->
+  <!---------------------------------------------->
+  <script src="./scripts/firebaseAPI_BBY-12.js"></script>
+  <script src="./scripts/skeleton.js"></script>
+  <script src="./scripts/main.js"></script>
 
 </body>
 
