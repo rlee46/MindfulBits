@@ -2,6 +2,12 @@ body {
     overflow-x: hidden;
 }
 
+body {
+    background-image: url(/images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }

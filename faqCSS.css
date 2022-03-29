@@ -61,5 +61,7 @@ flex-direction: column;
 }
 
 body {
-    background-image: url(/images/background.png);
+    background-image: url(/images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
