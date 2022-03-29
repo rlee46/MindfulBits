@@ -144,122 +144,227 @@ body {
 
 #card1 {
     grid-area: card1;
-    background: rgb(225,247,255);
-    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
-    border-radius: 30%;
-    box-shadow: 10px 10px rgb(186, 197, 212);
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: rgb(225, 247, 255);
+    background: radial-gradient(circle, rgba(222, 251, 255, 0.902) 0%, rgb(90, 167, 197) 100%);
 }
 
 #card2 {
     grid-area: card2;
-    background: rgb(225,247,255);
-    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
-    border-radius: 30%;
-    box-shadow: 10px 10px rgb(186, 197, 212);
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: rgb(225, 247, 255);
+    background: radial-gradient(circle, rgba(222, 251, 255, 0.902) 0%, rgb(90, 167, 197) 100%);
 }
 
 #card3 {
     grid-area: card3;
-    background: rgb(225,247,255);
-    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
-    border-radius: 30%;
-    box-shadow: 10px 10px rgb(186, 197, 212);
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: rgb(225, 247, 255);
+    background: radial-gradient(circle, rgba(222, 251, 255, 0.902) 0%, rgb(90, 167, 197) 100%);
 }
 
 #card4 {
     grid-area: card4;
-    background: rgb(225,247,255);
-    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
-    border-radius: 30%;
-    box-shadow: 10px 10px rgb(186, 197, 212);
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: rgb(225, 247, 255);
+    background: radial-gradient(circle, rgba(222, 251, 255, 0.902) 0%, rgb(90, 167, 197) 100%);
 }
 
 #card5 {
     grid-area: card5;
-    background: rgb(225,247,255);
-    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
-    border-radius: 30%;
-    box-shadow: 10px 10px rgb(186, 197, 212);
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: rgb(225, 247, 255);
+    background: radial-gradient(circle, rgba(222, 251, 255, 0.902) 0%, rgb(90, 167, 197) 100%);
 }
 
 #card6 {
     grid-area: card6;
-    background: rgb(225,247,255);
-    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
-    border-radius: 30%;
-    box-shadow: 10px 10px rgb(186, 197, 212);
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: rgb(225, 247, 255);
+    background: radial-gradient(circle, rgba(222, 251, 255, 0.902) 0%, rgb(90, 167, 197) 100%);
 }
 
 #card7 {
     grid-area: card7;
-    background: rgb(225,247,255);
-    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
-    border-radius: 30%;
-    box-shadow: 10px 10px rgb(186, 197, 212);
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: rgb(225, 247, 255);
+    background: radial-gradient(circle, rgba(222, 251, 255, 0.902) 0%, rgb(90, 167, 197) 100%);
 }
 
 #card8 {
     grid-area: card8;
-    background: rgb(225,247,255);
-    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
-    border-radius: 30%;
-    box-shadow: 10px 10px rgb(186, 197, 212);
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: rgb(225, 247, 255);
+    background: radial-gradient(circle, rgba(222, 251, 255, 0.902) 0%, rgb(90, 167, 197) 100%);
 }
 
 #card9 {
     grid-area: card9;
-    background: rgb(225,247,255);
-    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
-    border-radius: 30%;
-    box-shadow: 10px 10px rgb(186, 197, 212);
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: rgb(225, 247, 255);
+    background: radial-gradient(circle, rgba(222, 251, 255, 0.902) 0%, rgb(90, 167, 197) 100%);
 }
 
 #card10 {
     grid-area: card10;
-    background: rgb(225,247,255);
-    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
-    border-radius: 30%;
-    box-shadow: 10px 10px rgb(186, 197, 212);
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: rgb(225, 247, 255);
+    background: radial-gradient(circle, rgba(222, 251, 255, 0.902) 0%, rgb(90, 167, 197) 100%);
 }
 
 #card11 {
     grid-area: card11;
-    background: rgb(225,247,255);
-    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
-    border-radius: 30%;
-    box-shadow: 10px 10px rgb(186, 197, 212);
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: rgb(225, 247, 255);
+    background: radial-gradient(circle, rgba(222, 251, 255, 0.902) 0%, rgb(90, 167, 197) 100%);
 }
 
 #card12 {
     grid-area: card12;
-    background: rgb(225,247,255);
-    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
-    border-radius: 30%;
-    box-shadow: 10px 10px rgb(186, 197, 212);
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: rgb(225, 247, 255);
+    background: radial-gradient(circle, rgba(222, 251, 255, 0.902) 0%, rgb(90, 167, 197) 100%);
 }
 
 #card13 {
     grid-area: card13;
-    background: rgb(225,247,255);
-    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
-    border-radius: 30%;
-    box-shadow: 10px 10px rgb(186, 197, 212);
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: rgb(225, 247, 255);
+    background: radial-gradient(circle, rgba(222, 251, 255, 0.902) 0%, rgb(90, 167, 197) 100%);
 }
 
 #card14 {
     grid-area: card14;
-    background: rgb(225,247,255);
-    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
-    border-radius: 30%;
-    box-shadow: 10px 10px rgb(186, 197, 212);
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: rgb(225, 247, 255);
+    background: radial-gradient(circle, rgba(222, 251, 255, 0.902) 0%, rgb(90, 167, 197) 100%);
 }
 
 #card15 {
     grid-area: card15;
-    background: rgb(225,247,255);
-    background: radial-gradient(circle, rgba(225,247,255,0.9015755960587359) 0%, rgba(192,221,255,1) 100%);
-    border-radius: 30%;
-    box-shadow: 10px 10px rgb(186, 197, 212);
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    background: rgb(225, 247, 255);
+    background: radial-gradient(circle, rgba(222, 251, 255, 0.902) 0%, rgb(90, 167, 197) 100%);
 }
 
 @media only screen and (max-width: 700px) {
@@ -279,8 +384,8 @@ body {
         grid-template-areas:
         "heading"
         "video"
-        "banner"
         "carousel"
+        "banner"
         "footer";
     }
 

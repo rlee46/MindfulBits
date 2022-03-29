@@ -3,24 +3,8 @@ h2 {
     left: 20px;
 }
 
-.container1 {
-    display: grid; 
-    grid-template-columns: 40% 40% 40%;
-    padding-left: 150px;
+.card-group {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-body {
-    background-image: url(/images/background.png);
-    width:80%; 
-}
-
-#footerPlaceholder {
-    position:relative;
-    width: 125%;
-    top: 25px;
-}
-
-#navbarPlaceholder {
-    position:relative;
-    width: 125%;
-}
