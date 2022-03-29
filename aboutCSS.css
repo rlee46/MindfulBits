@@ -2,14 +2,22 @@
     font-family: "rubik";
     src: url(/Rubik-VariableFont_wght.ttf);
 }
+
 body {
     overflow-x: hidden;
 }
+
 #navbarPlaceholder {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+}
+
+body {
+    background-image: url(/images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #contents {
@@ -37,7 +45,6 @@ p {
 }
 
 .text {
-
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 15px;
@@ -138,6 +145,10 @@ p {
     position:relative;
     width: 100%;
     top:25px;  
+}
+
+.card-group {
+    background-color: transparent !important;
 }
 
 /* RESPONSIVE */
