@@ -18,9 +18,9 @@ flex-direction: column;
 }
 
 .hr-line{
-  width: 60%;
-  margin: auto;
-  
+    width: 60%;
+    margin: auto;
+
 }
 .faq-page {
     color: #444;
@@ -34,9 +34,9 @@ flex-direction: column;
 }
 .faq-body{
     margin: auto;
-   width: 50%; 
-   padding: auto;
-   
+    width: 50%; 
+    padding: auto;
+
 }
 
 .faq-page:hover {
@@ -45,7 +45,7 @@ flex-direction: column;
 
 .faq-body {
     padding: 0 18px;
-    background-color: white;
+    background-color: transparent;
     display: none;
     overflow: hidden;
 }
