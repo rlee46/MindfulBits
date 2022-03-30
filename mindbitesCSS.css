@@ -34,15 +34,23 @@ body {
     opacity: 0;
     transition: 200ms opacitiy ease-in-out;
     transition-delay: 200ms;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .slide > div {
     display: block;
     width: 30%;
-    height: 30%;
+    max-height: 15rem;
     object-fit: cover;
     object-position: center;
     margin: auto;
+}
+
+#title1, #title2, #title3, #title4, #title5, #title6,
+#title7, #title8, #title9, #title10, #title11, #title12,
+#title13, #title14, #title15 {
+    padding-top: 5%;
 }
 
 .slide[data-active] {
@@ -56,7 +64,7 @@ body {
     border: none;
     width: 5%;
     font-size: 4rem;
-    top: 50%;
+    top: 20%;
     z-index: 2;
     transform: translateY(-50%);
     cursor: pointer;
@@ -95,10 +103,8 @@ body {
                         "footer footer footer footer footer";
     align-content: space-between;
     text-align: center;
-    grid-gap: 18px;
     padding-bottom: 0;
     padding-right: 3%;
-
 }
 
 #navbarPlaceholder {
@@ -128,7 +134,7 @@ body {
 #video {
     grid-area: video;
     margin: auto;
-    padding-left: 5%;
+    padding-left: 15%;
 }
 
 #heading {
@@ -140,7 +146,6 @@ body {
 #banner {
     grid-area: banner;
     margin: auto;
-    padding-left: 30%;
 }
 
 #bannerimg {
@@ -150,12 +155,8 @@ body {
 
 #card1 {
     grid-area: card1;
-    margin-right: 400px;
-    padding: 20px;
     width: 500px;
     min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
@@ -165,12 +166,8 @@ body {
 
 #card2 {
     grid-area: card2;
-    margin: 20px;
-    padding: 20px;
     width: 500px;
     min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
@@ -180,12 +177,8 @@ body {
 
 #card3 {
     grid-area: card3;
-    margin: 20px;
-    padding: 20px;
     width: 500px;
     min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
@@ -195,12 +188,8 @@ body {
 
 #card4 {
     grid-area: card4;
-    margin: 20px;
-    padding: 20px;
     width: 500px;
     min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
@@ -210,12 +199,8 @@ body {
 
 #card5 {
     grid-area: card5;
-    margin: 20px;
-    padding: 20px;
     width: 500px;
     min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
@@ -225,12 +210,8 @@ body {
 
 #card6 {
     grid-area: card6;
-    margin: 20px;
-    padding: 20px;
     width: 500px;
     min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
@@ -240,12 +221,8 @@ body {
 
 #card7 {
     grid-area: card7;
-    margin: 20px;
-    padding: 20px;
     width: 500px;
     min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
@@ -255,12 +232,8 @@ body {
 
 #card8 {
     grid-area: card8;
-    margin: 20px;
-    padding: 20px;
     width: 500px;
     min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
@@ -270,12 +243,8 @@ body {
 
 #card9 {
     grid-area: card9;
-    margin: 20px;
-    padding: 20px;
     width: 500px;
     min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
@@ -285,12 +254,8 @@ body {
 
 #card10 {
     grid-area: card10;
-    margin: 20px;
-    padding: 20px;
     width: 500px;
     min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
@@ -300,12 +265,8 @@ body {
 
 #card11 {
     grid-area: card11;
-    margin: 20px;
-    padding: 20px;
     width: 500px;
     min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
@@ -315,12 +276,8 @@ body {
 
 #card12 {
     grid-area: card12;
-    margin: 20px;
-    padding: 20px;
     width: 500px;
     min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
@@ -330,12 +287,8 @@ body {
 
 #card13 {
     grid-area: card13;
-    margin: 20px;
-    padding: 20px;
     width: 500px;
     min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
@@ -345,12 +298,8 @@ body {
 
 #card14 {
     grid-area: card14;
-    margin: 20px;
-    padding: 20px;
     width: 500px;
     min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
@@ -360,12 +309,8 @@ body {
 
 #card15 {
     grid-area: card15;
-    margin: 20px;
-    padding: 20px;
     width: 500px;
     min-height: 200px;
-    display: grid;
-    grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     transition: all 0.2s;
@@ -373,10 +318,11 @@ body {
     background: radial-gradient(circle, rgba(222, 251, 255, 0.902) 0%, rgb(90, 167, 197) 100%);
 }
 
-button {
-    padding-top: 200px;
+.bite-begin {
+    color: black;
+    font-weight: 500;
+    height: 1rem;
 }
-
 @media only screen and (max-width: 700px) {
     body {
         overflow-x: hidden;
@@ -438,11 +384,6 @@ button {
     .slide {
         padding-top: 0%;
         margin-top: 0;
-    }
-
-    .slide > div > p, button {
-        vertical-align: middle;
-        transform: translateY(150%);
     }
 
     #carousel-section {
