@@ -1,5 +1,8 @@
 const buttons = document.querySelectorAll("[data-carousel-button]");
 
+/*
+This function is used for the card carousel for "mindbites" and "meditation".
+*/
 buttons.forEach(button => {
     button.addEventListener("click", () => {
         const offset = button.dataset.carouselButton === "next" ? 1 : -1;

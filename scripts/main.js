@@ -20,9 +20,10 @@ function insertName() {
 }
 insertName();
 
+/*
+This function reads from Firebase and populates our "bite" cards.
+*/
 function readDisplayBites() {
-    //console.log("inside the function")
-
     //get into the right collection
     for (let i = 1; i <= 15; i++) {
         db.collection("Mindful Bites").doc("Bite" + i)
@@ -35,6 +36,9 @@ function readDisplayBites() {
 }
 readDisplayBites();
 
+/*
+This function reads from Firebase and populates our "meditation" cards.
+*/
 function readDisplayMeditation() {
     //console.log("inside the function")
 

@@ -1,5 +1,4 @@
 function read_display_bites() {
-    //console.log("inside the function")
     let max = 7;
     let min = 1;
 
